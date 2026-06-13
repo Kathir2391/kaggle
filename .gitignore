@@ -1,0 +1,32 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+**/dist/
+**/.eggs/
+
+# Virtual environments — each project has its own .venv
+**/.venv/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# VS Code personal settings
+**/.vscode/settings.json
+EOF
+
+
+# Kaggle credentials
+kaggle.json
+**/.env
+
+# Data — never commit datasets, predictions, or submissions
+**/data/raw/
+**/data/processed/
+**/data/predictions/
+**/data/submissions/
+
